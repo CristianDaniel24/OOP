@@ -1,0 +1,4 @@
+User: Juan
+The numbers entered were: 
+10
+7

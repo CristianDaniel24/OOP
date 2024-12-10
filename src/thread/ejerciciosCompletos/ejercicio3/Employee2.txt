@@ -1,0 +1,4 @@
+susana,administracion,34
+daniel,administracion,43
+luis,administracion,22
+miguel,administracion,36

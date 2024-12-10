@@ -1,0 +1,4 @@
+german,limpieza,38
+tatiana,limpieza,31
+juana,limpieza,45
+lucrecia,limpieza,32
