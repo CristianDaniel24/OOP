@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Day4 {
 
-    public static final String PATH = "src/christmasChallenge/day4/Text";
+    public static final String PATH = "src/christmasChallenge/day4/Pruebas";
 
     public static void main(String[] args) throws IOException {
         List<String> text = Files.readAllLines(Path.of(PATH));
@@ -15,8 +15,10 @@ public class Day4 {
         char[][] listBidi = convertBidi(text);
 
         String word = "XMAS";
-        int count = countOccurrences(listBidi, word);
-        System.out.println("The count is: " + count);
+        int countXMAS = countOccurrences(listBidi, word);
+        //int countX = countGraphicX(listBidi);
+        System.out.println("The count of countXMAS is: " + countXMAS);
+        //System.out.println("The count of countGraphicX is: " + countX);
     }
 
     public static char[][] convertBidi(List<String> text) {
