@@ -138,8 +138,4 @@ public class Day5 {
                 .mapToInt(line -> line.get(line.size() / 2))
                 .sum();
     }
-
-    public static void reorderPages(List<Integer> lineOrdered, List<List<Integer>> instructionsOrder) {
-
-    }
 }
