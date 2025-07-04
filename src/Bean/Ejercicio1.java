@@ -1,4 +1,4 @@
-package Bins;
+package Bean;
 
 public class Ejercicio1 {
     /*
